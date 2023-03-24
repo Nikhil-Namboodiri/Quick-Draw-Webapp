@@ -1,0 +1,77 @@
+body{
+    background-color: aquamarine;
+}
+#score{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 25px;
+    float: left;
+}
+#timer{
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 25px;
+    float: right;
+}
+#quick_draw{
+    font-weight: bolder;
+    color: blueviolet;
+    text-decoration: underline;
+}
+#show_sketch{
+    float:right;
+    margin-right: 10px;
+}
+#show_sketch:hover{
+    border-radius: 20%;
+}
+#my_sketch{
+    font-family: 'Times New Roman', Times, serif;
+}
+#confidence{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sketch{
+    font-weight: bolder;
+    font-size: 25 px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
